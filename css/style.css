@@ -839,6 +839,11 @@ a:visited{
 
 .qr-img{
     padding: 0;
+    text-align: center;
+}
+
+.registration-link {
+    text-align: center;
 }
 
 .organizer-container {
@@ -872,19 +877,24 @@ a:visited{
 .organizer img {
     margin: 10px;
     /*display: flex;*/
-    width: 200px; /* Adjust the width as needed */
+    width: 180px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
 .organizer .name {
+    /*margin: 10px;*/
     font-size: 20px;
-    margin-top: 8px;
+    /*margin-top: 8px;*/
 }
 
 .organizer .affiliation {
+    /*margin: 10px;*/
     font-size: 16px;
 }
 
+.organizer-text {
+    margin: 12px;
+}
 
 
 /*from dmv*/
