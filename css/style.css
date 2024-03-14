@@ -847,125 +847,25 @@ a:visited{
 }
 
 .organizer-container {
-    /*text-align: center;*/
     margin: 10px;
     width: 1000px;
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*justify-content: space-around;*/
-    /*margin: -10px; !* Adjust margin to handle the spacing *!*/
 }
 
 .organizer {
     display: inline-block;
-    /*display: flex;*/
     margin: 10px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     width: 200px;
-    /*flex: 1;*/
-    /*flex: 1;*/
-    /*min-width: calc(25% - 20px); !* Adjust min-width to control when blocks wrap *!*/
-    /*max-width: calc(25% - 20px); !* Adjust max-width for consistency *!*/
-    /*margin: 10px;*/
-    /*height: 100px; !* Set a fixed height for demonstration *!*/
-    /*background-color: #f0f0f0;*/
-    /*box-sizing: border-box; !* Include padding and borders in the element's total width and height *!*/
-    /*!* Add padding, border, or any other styles as needed *!*/
-    /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);*/
 }
 
 .organizer img {
     margin: 10px;
-    /*display: flex;*/
     width: 180px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-}
-
-.organizer .name {
-    /*margin: 10px;*/
-    font-size: 20px;
-    /*margin-top: 8px;*/
-}
-
-.organizer .affiliation {
-    /*margin: 10px;*/
-    font-size: 16px;
 }
 
 .organizer-text {
     margin: 12px;
 }
 
-
-/*from dmv*/
-/*.org-projects .org-card-item .org-row {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*.org-row {*/
-/*    display: -ms-flexbox;*/
-/*    display: flex;*/
-/*    -ms-flex-wrap: wrap;*/
-/*    flex-wrap: wrap;*/
-/*    margin-right: -15px;*/
-/*    margin-left: -15px;*/
-/*}*/
-
-
-/*.org-card {*/
-/*    font-weight: 400;*/
-/*    border: 0;*/
-/*    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);*/
-/*    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);*/
-/*    position: relative;*/
-/*    display: -ms-flexbox;*/
-/*    display: flex;*/
-/*    -ms-flex-direction: column;*/
-/*    flex-direction: column;*/
-/*    min-width: 0;*/
-/*    word-wrap: break-word;*/
-/*    background-color: #fff;*/
-/*    background-clip: border-box;*/
-/*    border: 1px solid rgba(0, 0, 0, .125);*/
-/*    border-radius: 0.25rem;*/
-/*}*/
-
-/*.org-col-sm-4, .org-col-sm-6 {*/
-/*    position: relative;*/
-/*    width: 100%;*/
-/*    padding-right: 15px;*/
-/*    padding-left: 15px;*/
-/*}*/
-
-/*.org-col-sm-4 {*/
-/*    -ms-flex: 0 0 33.333333%;*/
-/*    flex: 0 0 33.333333%;*/
-/*    max-width: 33.333333%;*/
-/*}*/
-
-/*.org-card-img {*/
-/*    -ms-flex-negative: 0;*/
-/*    flex-shrink: 0;*/
-/*    width: 100%;*/
-/*}*/
-
-/*.org-card-img {*/
-/*    border-top-left-radius: calc(0.25rem - 1px);*/
-/*    border-top-right-radius: calc(0.25rem - 1px);*/
-/*}*/
-/*.org-col {*/
-/*    position: relative;*/
-/*    width: 100%;*/
-/*    padding-right: 15px;*/
-/*    padding-left: 15px;*/
-/*}*/
-
-/*.org-pb-3 {*/
-/*    padding-bottom: 1rem !important;*/
-/*}*/
-
-/*.org-pt-3 {*/
-/*    padding-top: 1rem !important;*/
-/*}*/
