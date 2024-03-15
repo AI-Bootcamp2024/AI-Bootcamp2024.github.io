@@ -377,9 +377,9 @@ button:focus,
 /*-------------------
  * Jumbotron
  *-------------------*/
-
+/*circuits*/
 .jumbotron {
-    background            : url("../img/logos/circuits.png");
+    background            : url("../img/logos/ai4_edited.png");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
