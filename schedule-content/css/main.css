@@ -31,6 +31,13 @@
     display: none
 }
 
+.navbar-collapse {
+    position: relative; /* 设置相对定位，以便设置 z-index */
+    z-index: 1; /* 设置一个较高的 z-index 值，使菜单列表位于背景图片的前面 */
+    background-color: rgba(255, 255, 255, 0.5); /* 添加背景颜色，透明度可根据需要调整 */
+    border-radius: 10px; /* 可选：添加圆角以美化菜单列表 */
+}
+
 .header-background .img {
     background-image: url("../img/wm-background.jpeg");
     background-repeat: no-repeat;
@@ -38,7 +45,8 @@
     background-position: center top;
     height: 40em;
     margin-bottom: 2em;
-    margin-top: 2.8em
+    margin-top: 2.8em;
+    z-index: -1;
 }
 
 .custom-split-list {
@@ -68,6 +76,7 @@
     border-bottom: 1px solid #ccc;
     /* 添加底部边框 */
 }
+
 
 html[data-theme=dark] {
     --global-bg-color: #1c1c1d;
@@ -102,6 +111,13 @@ html[data-theme=dark] .repo-img-dark {
     display: block
 }
 
+html[data-theme=dark]  .navbar-collapse {
+    position: relative; /* 设置相对定位，以便设置 z-index */
+    z-index: 1; /* 设置一个较高的 z-index 值，使菜单列表位于背景图片的前面 */
+    background-color: rgba(28, 28, 29, 0.5); /* 添加背景颜色，透明度可根据需要调整 */
+    border-radius: 10px; /* 可选：添加圆角以美化菜单列表 */
+}
+
 html[data-theme=dark] .header-background .img {
     background-image: url("../img/wm-background.jpeg");
     background-repeat: no-repeat;
@@ -109,7 +125,8 @@ html[data-theme=dark] .header-background .img {
     background-position: center top;
     height: 40em;
     margin-bottom: 2em;
-    margin-top: 2.8em
+    margin-top: 2.8em;
+    z-index: -1;
 }
 
 html[data-theme=dark] .custom-split-list {
@@ -166,7 +183,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-    max-width: 1000px
+    max-width: 2000px
 }
 
 .profile img {
@@ -373,7 +390,7 @@ blockquote {
 }
 
 .navbar.navbar-light .navbar-brand img {
-    height: 70px;
+    height: 60px;
     width: 60px;
     margin-right: 20px
 }
