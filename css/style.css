@@ -54,8 +54,12 @@ body {
  * Global Typography
  *------------------------------------------*/
 
-h1, h2, h3, h4, h5, h6 {
-    margin : 0 0 15px;
+/*h7 .organizer {*/
+/*    color: #353e55;*/
+/*}*/
+
+h1, h2, h3, h4, h5, h6, h7 {
+    margin : 0 0 10px;
     /*color  : #0e1555;*/
     color: #115740;
     }
@@ -76,6 +80,7 @@ h3 {
     font-size   : 24px;
     line-height : 1.5em;
     font-weight : 300;
+    /*color: #353e55;*/
     }
 
 h4 {
@@ -95,11 +100,20 @@ h6 {
     line-height : 24px;
     }
 
+h7 {
+    font-size   : 14px;
+    line-height : 1.0em;
+    font-weight : 500;
+}
+
+
+
 /* --------------------------------------
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #fd367e;
+    /*color              : #fd367e;*/
+    color              : #115740;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -827,9 +841,10 @@ section div p.lead{
 	margin-top: 5px;
 }
 
-a:visited{
-  color:#fd367e;
-}
+/*a:visited{*/
+/*  !*color:#fd367e;*!*/
+/*  color:#115740;*/
+/*}*/
 
 .nopad{
     padding: 0;
@@ -844,6 +859,7 @@ a:visited{
 
 .registration-link {
     text-align: center;
+    color: #fd367e;
 }
 
 .organizer-container {
