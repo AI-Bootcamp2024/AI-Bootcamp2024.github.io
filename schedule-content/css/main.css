@@ -39,10 +39,10 @@
 }
 
 .header-background .img {
-    background-image: url("../img/wm-background.jpeg");
+    background-image: url("../img/AI-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     height: 40em;
     margin-bottom: 2em;
     margin-top: 2.8em;
@@ -119,10 +119,10 @@ html[data-theme=dark]  .navbar-collapse {
 }
 
 html[data-theme=dark] .header-background .img {
-    background-image: url("../img/wm-background.jpeg");
+    background-image: url("../img/AI-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     height: 40em;
     margin-bottom: 2em;
     margin-top: 2.8em;
@@ -259,6 +259,12 @@ blockquote {
     margin: 1.5em 10px;
     padding: .5em 10px;
     font-size: 1.2rem
+}
+
+.large-bold-text {
+    
+    font-size: 1.2em; /* 根据需求设置合适的字体大小 */
+    font-weight: bold;
 }
 
 .equation {
