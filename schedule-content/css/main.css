@@ -183,7 +183,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-    max-width: 2000px
+    max-width: 1000px
 }
 
 .profile img {
@@ -263,7 +263,7 @@ blockquote {
 
 .large-bold-text {
     
-    font-size: 1.2em; /* 根据需求设置合适的字体大小 */
+    font-size: 1.4em; /* 根据需求设置合适的字体大小 */
     font-weight: bold;
 }
 
@@ -397,7 +397,7 @@ blockquote {
 
 .navbar.navbar-light .navbar-brand img {
     height: 60px;
-    width: 60px;
+    width: auto;
     margin-right: 20px
 }
 
