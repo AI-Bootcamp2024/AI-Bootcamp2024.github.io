@@ -16,7 +16,7 @@ jQuery(function ($) {
 
     (function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() >= 50) {
+            if ($(this).scrollTop() >= 0) { // >=50
                 $('nav.navbar').addClass('sticky-nav');
             }
             else {

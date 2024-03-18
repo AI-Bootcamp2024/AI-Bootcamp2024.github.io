@@ -16,12 +16,13 @@ jQuery(function ($) {
 
     (function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() >= 50) {
-                $('nav.navbar').addClass('sticky-nav');
-            }
-            else {
-                $('nav.navbar').removeClass('sticky-nav');
-            }
+            $('nav.navbar').addClass('sticky-nav');
+            // if ($(this).scrollTop() >= 0) { // 50
+            //     $('nav.navbar').addClass('sticky-nav');
+            // }
+            // else {
+            //     $('nav.navbar').removeClass('sticky-nav');
+            // }
         });
     }());
 
