@@ -938,20 +938,22 @@ section div p.lead{
 
 .organizer-container {
     margin: 10px;
-    width: 1000px;
+    width: 1200px;
     display: flex;
+    overflow-x: auto; /* Show horizontal scrollbar when needed */
+    white-space: nowrap; /* Prevents content from wrapping */
 }
 
 .organizer {
     display: inline-block;
     margin: 10px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    width: 200px;
+    width: 220px;
 }
 
 .organizer img {
     margin: 10px;
-    width: 180px; /* Adjust the width as needed */
+    width: 200px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
