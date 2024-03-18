@@ -241,7 +241,8 @@ button:focus,
 /*Logo*/
 .navbar-brand {
     padding : 0;
-    height  : auto;
+    height  : 60px;
+    weight : auto;
     margin-right: 20px !important;
 
 }
@@ -249,8 +250,10 @@ button:focus,
 .navbar-brand>img{
     /* background-color: red; */
     margin-top: 0px;
+    height  : 60px;
+    weight : auto;
     /*margin-top: -10px*/
-    max-width: 400px;
+    /*max-width: 400px;*/
 }
 
 
@@ -315,7 +318,7 @@ button:focus,
 
 .main-menu .navbar-left {
     margin-left : -15px;
-    font-size: 24px !important;
+    font-size: 28px !important;
 }
 
 .main-menu .nav li a {
@@ -962,7 +965,7 @@ section div p.lead{
 
 .navbar-header img {
     height: 60px;
-    width: 60px;
+    width: auto;
     margin-right: 20px;
 }
 
