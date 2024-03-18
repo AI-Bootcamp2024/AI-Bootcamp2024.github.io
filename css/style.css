@@ -468,7 +468,7 @@ button:focus,
     height            : 0%;
     width             : 100%;
     margin            : 0 auto;
-    padding           : 0 10%;
+    /*padding           : 0 10%;*/
     transform         : translateY(-50%);
     -webkit-transform : translateY(-50%);
     -moz-transform    : translateY(-50%);
@@ -486,7 +486,8 @@ button:focus,
     font-weight : bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3.5em;
-    padding: 30px;
+    /*padding: 30px;*/
+    padding: 30px 250px;
     -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
     mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
     }
